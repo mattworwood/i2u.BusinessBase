@@ -19,5 +19,7 @@ namespace i2u.BusinessBase.Users
         public TimeSpan DeliveryDailyAt { get; set; } = TimeSpan.Parse("00:00:00");
 
         public string BibleVersion { get; set; } = string.Empty;
+
+        public string Source { get; set; } = "YouVersion";
     }
 }
